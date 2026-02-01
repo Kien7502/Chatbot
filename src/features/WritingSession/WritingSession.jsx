@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { getPedagogicalFeedback } from '../../services/gemini';
+import { getPedagogicalFeedback } from '../../services/ai';
 
 const WritingSession = ({ sessionData, onComplete }) => {
     const [text, setText] = useState('');
